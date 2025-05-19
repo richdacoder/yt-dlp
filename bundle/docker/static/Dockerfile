@@ -3,7 +3,7 @@ FROM alpine:3.19 as base
 RUN apk --update add --no-cache \
         build-base \
         python3 \
-        pipx \
+        pipx \ 
     ;
 
 RUN pipx install pyinstaller
